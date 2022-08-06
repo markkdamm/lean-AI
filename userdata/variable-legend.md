@@ -1,4 +1,4 @@
-# Each column stands for:
+# Each column stands for
 
 * id: unique id for each row
 
@@ -35,4 +35,5 @@
 * MTRANS: Transportation used - automobile, motorbike, bike, public_transportation, walking
 
 NObeyesdad: Type of obesity - insufficientweight, normalweight, overweight-leveli, overweight-levelii, obesitytypei, obesitytypeii, obesitytypeiii
+
 * BMI: Body mass index
