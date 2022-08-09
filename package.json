@@ -1,0 +1,27 @@
+{
+  "name": "lean-ai",
+  "version": "1.0.0",
+  "description": "a library powered by AI that analyzes the main causes of obesity and offers meal plans based on them",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markkdamm/lean-AI.git"
+  },
+  "keywords": [
+    "AI",
+    "library",
+    "obesity",
+    "food",
+    "health"
+  ],
+  "author": "Mark Damm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markkdamm/lean-AI/issues"
+  },
+  "homepage": "https://github.com/markkdamm/lean-AI#readme"
+}
