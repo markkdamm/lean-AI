@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/markkdamm/lean-AI/issues"
   },
-  "homepage": "https://github.com/markkdamm/lean-AI#readme"
+  "homepage": "https://github.com/markkdamm/lean-AI#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
 }

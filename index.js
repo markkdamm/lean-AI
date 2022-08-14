@@ -1,4 +1,4 @@
-
+import food from './food/food';
 
 export class User{
     constructor(height, weight, gender, goal, bodytype, sleep, exercise){
@@ -23,6 +23,8 @@ export class User{
     if(bmi>25 && bodytype>3){
         caloricDeficit=true;
         bulk=false;
+        this.caloricDeficit = caloricDeficit;
+        this.bulk = bulk;
     }else{
         caloricDeficit=false;
         bulk=true;
@@ -40,9 +42,16 @@ export class User{
             console.log('Gender must be male or female')
             bmr = NaN
         }
-        this.bmr = bmr;
+        this.calories = bmr;
         //bmr * pal => protein intake, where pal is the amount of exercise
         pal = this.exercise;
         let protein = bmr * pal;
+        this.protein = protein;
+        }
+    }
+    export class Diet extends User{
+        constructor(height, weight, gender, goal, bodytype, sleep, exercise){
+            super(height, weight, gender, goal, bodytype, sleep, exercise);
+
         }
     }
